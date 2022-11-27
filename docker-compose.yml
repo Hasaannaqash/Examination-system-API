@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      - MYSQL_DATABASE=exam-db
+      - MYSQL_ROOT_PASSWORD=mauFJcuf5dhRMQrjj
+    ports:
+      - '3306:3306'
